@@ -82,17 +82,17 @@ const onDateOfBirthChange=(e)=>{
             <div className=" flex justify-evenly"> 
                 <div> 
                     <label htmlFor="firstName">FirstName</label> <br /> 
-                    <input type="text" name="firstname" value={forms.firstName} onChange={onFirstNameChange} placeholder="firstname" className="border-2 border-black" /> <br /> <br />
+                    <input type="text" name="firstname" value={forms.firstName} onChange={onFirstNameChange} placeholder="firstname" className="border-2 border-black w-64 " /> <br /> <br />
                     <label htmlFor="Email">Email</label> <br /> 
-                    <input type="email" name="email"  value={forms.email}  onChange={onEmailChange} placeholder="email" className="border-2 border-black" /> <br /> <br />
+                    <input type="email" name="email"  value={forms.email}  onChange={onEmailChange} placeholder="email" className="border-2 border-black w-64" /> <br /> <br />
                     <label htmlFor="Residence Address">Residence Address</label> <br />  
-                    <input type="text" name="residence" value={forms.ResidenceAddress} onChange={onResidenceAddressChange}  placeholder="residence " className="border-2 border-black" /> <br /> <br />
+                    <input type="text" name="residence" value={forms.ResidenceAddress} onChange={onResidenceAddressChange}  placeholder="residence " className="border-2 border-black w-64" /> <br /> <br />
                     <label htmlFor="occupation">Occupation</label> <br />  <br />
-                    <input type="text" name="occupation"  value={forms.occupation}   onChange={onOccupationChange} placeholder="occupation" className="border-2 border-black" /> <br /> <br />
+                    <input type="text" name="occupation"  value={forms.occupation}   onChange={onOccupationChange} placeholder="occupation" className="border-2 border-black w-64" /> <br /> <br />
                     <label htmlFor="date Of birth">Date Of birth</label> <br /> 
-                    <input type="date" name="dateOfbirth" value={forms.dateOfBirth} onChange={onDateOfBirthChange} placeholder="birthdate" className="border-2 border-black" /> <br /> <br />
+                    <input type="date" name="dateOfbirth" value={forms.dateOfBirth} onChange={onDateOfBirthChange} placeholder="birthdate" className="border-2 border-black w-64" /> <br /> <br />
                     <label htmlFor="Region">Country</label> <br /> 
-                        <select name="country" value={forms.country} onChange={onCountryChange} className=" w-80 h-10">Choose your Country
+                        <select name="country" value={forms.country} onChange={onCountryChange} className=" w-64 h-10">Choose your Country
                             <option value="">choose your country</option>
                             <option value="Ghana">Ghana</option>
                             <option value="Nigeria">Nigeria</option>
@@ -129,29 +129,29 @@ const onDateOfBirthChange=(e)=>{
                 
                 <div> 
                 <label htmlFor="lastName">Last Name</label> <br /> 
-                    <input type="text" name="lastname" placeholder="lastname" value={forms.lastname} onChange={onLastNameChange}  className="border-2 border-black" /> <br /> <br />
+                    <input type="text" name="lastname" placeholder="lastname" value={forms.lastname} onChange={onLastNameChange}  className="border-2 border-black w-64" /> <br /> <br />
 
 
                     <label htmlFor="">phone</label> <br /> 
-                    <input type="number" name="phone" placeholder="number" value={forms.phone} onChange={onPhoneChange} className="border-2 border-black" /> <br /> <br />
+                    <input type="number" name="phone" placeholder="number" value={forms.phone} onChange={onPhoneChange} className="border-2 border-black w-64" /> <br /> <br />
 
 
                     <label htmlFor="gender">gender</label> <br /> Male
                     <input type="radio" checked={forms.gender}  name="gender" value="male" className="border-2 border-black" onChange={onGenderChange} /> female 
-                    <input type="radio"  checked={forms.gender} name="gender"  value="female" className="border-2 border-black"  onChange={onGenderChange} /> <br /> <br />
+                    <input type="radio"  checked={forms.gender} name="gender"  value="female" className="border-2 border-black "  onChange={onGenderChange} /> <br /> <br />
 
                     <label htmlFor="Work Address">Work Address</label> <br /> 
-                    <input type="text" name="workAddress" value={forms.workAddress} onChange={onWorkAddressChange} placeholder="work address" className="border-2 border-black" /> <br /> <br />
+                    <input type="text" name="workAddress" value={forms.workAddress} onChange={onWorkAddressChange} placeholder="work address" className="border-2 border-black w-64" /> <br /> <br />
 
 
                     <label htmlFor="city">City</label> <br /> 
-                    <input type="text" name="city" placeholder="city" value={forms.city} onChange={onCityChange} className="border-2 border-black" /> <br /> <br />
+                    <input type="text" name="city" placeholder="city" value={forms.city} onChange={onCityChange} className="border-2 border-black w-64" /> <br /> <br />
 
                     <label htmlFor="password">password</label> <br /> 
-                    <input type="password" name="password" value={forms.password} onChange={onPasswordChange} placeholder="password" className="border-2 border-black" /> <br /> <br />
+                    <input type="password" name="password" value={forms.password} onChange={onPasswordChange} placeholder="password" className="border-2 border-black w-64" /> <br /> <br />
 
                     <label htmlFor="city">National ID</label> <br />  
-                    <input type="file" name="id"  value={forms.id} onChange={onNationalIdChange} className="border-2 border-black" /> <br />
+                    <input type="file" name="id"  value={forms.id} onChange={onNationalIdChange} className="border-2 border-black w-64" /> <br />
 
                       
                 </div>

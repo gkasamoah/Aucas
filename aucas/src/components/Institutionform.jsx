@@ -90,18 +90,18 @@ const Institutionform=()=>{
                             <option value="Northern">Northern</option>
                         </select> <br />
                         <label htmlFor="Institution Name">Name of Institution</label> <br />
-                        <input type="text" name="institutionName"  value={forms.institutionName} onChange={onInstitutionNameChange} placeholder="Name of Institution" className=" bg-slate-100 w-80 h-10" /> <br />
+                        <input type="text" name="institutionName"  value={forms.institutionName} onChange={onInstitutionNameChange} placeholder="Name of Institution" className=" border-2 border-black w-80 h-10" /> <br />
 
 
                         <label htmlFor="Office Email">Office Email</label> <br />
-                        <input type="email" name="officeEmail" value={forms.officeEmail} onChange={onOfficeEmailChange}  placeholder="Office Email" className=" bg-slate-100 w-80 h-10" /><br />
+                        <input type="email" name="officeEmail" value={forms.officeEmail} onChange={onOfficeEmailChange}  placeholder="Office Email" className=" border-2 border-black w-80 h-10" /><br />
 
                         <label htmlFor="Institution Summary">Institution Summary</label> <br />
-                        <input type="text" name="summary" value={forms.summary} onChange={onSummaryChange}   placeholder="Institution Summary" className=" bg-slate-100 w-80 h-10" /> <br />
+                        <input type="text" name="summary" value={forms.summary} onChange={onSummaryChange}   placeholder="Institution Summary" className="border-2 border-black w-80 h-10" /> <br />
 
 
                         <label htmlFor="Year Established">Year Established</label> <br />
-                        <input type="date" placeholder="Year Established" name="established" onChange={onEstablishedChange} value={forms.established} className=" bg-slate-100 w-80 h-10" /> <br />
+                        <input type="date" placeholder="Year Established" name="established" onChange={onEstablishedChange} value={forms.established} className="boder-2 border-black w-80 h-10" /> <br />
                         <h2 className=" font-bold">Institution Category</h2>
                        <label htmlFor="">Professional</label> <input type="checkbox" name="industry" value="professional" onChange={onIndustryChange} />
                        <label htmlFor="">Government</label> <input type="checkbox" name="industry" value="Government" onChange={onIndustryChange} />
@@ -140,13 +140,13 @@ const Institutionform=()=>{
                             <option value="Other">Other</option>
                         </select> <br />
                         <label htmlFor="Institution Name">Abbreviation</label> <br />
-                        <input type="text" name="Abbreviation"  placeholder="Enter Abbreviation" value={forms.abbreviations} onChange={onAbbreviationChangeChange} className=" bg-slate-100 w-80 h-10" /> <br />
+                        <input type="text" name="Abbreviation"  placeholder="Enter Abbreviation" value={forms.abbreviations} onChange={onAbbreviationChangeChange} className=" border-2 border-black w-80 h-10" /> <br />
                         <label htmlFor="Programs">Programs</label> <br />
-                        <input type="file" name="programs" value={forms.programs}  onChange={onProgramsChange} className=" bg-slate-100 w-80 h-10" /> <br />
+                        <input type="file" name="programs" value={forms.programs}  onChange={onProgramsChange} className=" border-black border-2 w-80 h-10" /> <br />
                         <label htmlFor="Institution Pictures">Institution Pictures</label> <br />
-                        <input type="file" name="institutionpictures" value={forms.InstPictures} onChange={onPictureChange}  className=" bg-slate-100 w-80 h-10" /> <br />
+                        <input type="file" name="institutionpictures" value={forms.InstPictures} onChange={onPictureChange}  className=" border-2 border-black w-80 h-10" /> <br />
                         <label htmlFor="Institution Name">City</label> <br />
-                        <input type="text" name="city" value={forms.city} onChange={onCityChange}  className=" bg-slate-100 w-80 h-10" placeholder="Enter your city" /> <br /> <br /> <br />
+                        <input type="text" name="city" value={forms.city} onChange={onCityChange}  className=" border-2 w-80 h-10" placeholder="Enter your city" /> <br /> <br /> <br />
                         <button className=" border-2 border-teal-400 m-3  h-8 hover:bg-black  hover:text-white w-36"><a href="/SignupIndex">Back</a></button>
                        <button type="submit" className=" bg-teal-400 m-3  h-8 hover:bg-black  hover:text-white">Save and Continue</button>
                          </div>
